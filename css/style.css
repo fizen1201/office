@@ -1,0 +1,310 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+div{
+  text-align: center;
+}
+.nav-link{
+  padding: 3px 25px !important;
+  letter-spacing: 2px;
+}
+.nav-link:hover{
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+transform: scale(1.8);
+}
+.posnavbar{
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+  background-color:#63b7af !important;
+
+} 
+.heading{
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'Merriweather', serif;
+  width: 60%;
+  color: white;
+}
+.starting{
+  background-image: url("../images/head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 1%;
+  height: 47em;
+}
+.about
+{
+   padding: 2%;
+    margin: 0;
+    background-image: url("../images/darkwater.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#description{
+  text-align: left;
+  margin: 20px auto 50px auto;
+  width: 90%;
+  font-family: 'Playfair Display', serif;
+ letter-spacing: 2px;
+ }
+ .our-work
+ {
+     margin: 0;
+     padding: 5% 3% 10% 3%;
+     background-image: url("../images/opti.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+.sample
+{
+  background-image: url('https://images.unsplash.com/photo-1456456496250-d5e7c0a9b44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');    margin: 0;
+    padding: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clients{
+  background-image: url("../images/clients.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ff926b;
+  padding: 1%;
+  padding-bottom: 30px;
+}
+.testimonials{
+  background-image: url("../images/darkmountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1%;
+  color: white;
+}
+.virtue{
+  margin: 8% auto;
+}
+.contact
+{
+    color: white;
+   background-image: url("../images/contact.jpg");
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+  text-decoration: none !important;
+}
+/* FORM */
+form{
+  width: 60%;
+  margin: auto;
+}
+.form-control{
+  margin: -8px 0;
+  border-radius: 100px;
+}
+.form-control:hover{
+transform: scale(1.1);
+box-shadow: -11px 11px 18px -7px grey;
+}
+/* .btn{
+ border: none;
+}
+.btn:hover{
+  background-color: ;
+} */
+footer
+{ 
+  background-color: grey;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footericon{
+  margin: 10px 30px;
+ font-size: 1.4em;
+ color: white;
+}
+.footericon:hover{
+  color:#40E0D0;
+  transition-delay: 0.5s;
+  transition-duration: 0.8s;
+  transform: scale(1.4);
+}
+/* CARDS */
+.card{
+  border-radius: 10px;
+  margin: 25px auto !important;
+  opacity: 95%;
+  width: 25%;
+  color: black;
+}
+.workcard,.samcard{
+   width:70%;
+}
+.card-title{
+  font-family: 'Lobster', cursive;
+  text-shadow: 0px 4px 6px rgba(48, 165, 149, 0.5);
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.card-img-top{
+  border-radius:9px 9px 0px 0px;
+  width: 90% !important;
+  margin: 15px auto;
+}
+/* All the sample rows are set here */
+.paperbags,.folders,.catalogue,.stationary,.books,.flyer,.magazine{
+  display: none ;
+}
+/* THe End */
+.card-img-shadow{
+  box-shadow: 0px 29px 13px -12px rgba(0,0,0,0.49);
+}
+.carousel-inner-shadow{
+  box-shadow: 4px 3px 13px black;
+}
+.card:hover,.card-img-top:hover{
+  transition-delay: .3s;
+  transition-duration: 0.8s;
+      transform: scale(1.1);
+      opacity: 100%;
+  }
+  /*Media Query  */
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 70% !important;
+      }
+      svg.intro {
+        max-width: 100%;
+        top: 43% !important;
+        left: 50% !important;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+      }
+      .starting{
+        height: 670px;
+      }
+     svg.intro.go .text {
+        font-family: Arial, sans-serif;
+        font-size: 2.3rem !important;
+         text-transform: uppercase;
+        display: block;
+      }
+      .our-work
+      {
+        background: fixed;
+        width: 100%;
+        background-image: url("../images/opti_m.png");
+        background-size: cover;
+        padding-top: 5%;
+        padding-bottom: 20%;
+      }
+      #typinganimation{
+        margin: 30rem auto !important;
+      }
+  }
+
+/* VAHIN PRINTER'S ANIMATION */
+svg.intro {
+  max-width: 1000px;
+  position: absolute;
+  top: 43%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-shadow: 2px 2px 3px rgba(48, 165, 149, 0.89);
+        }
+ 
+svg.intro .text {
+  display: none;
+}
+svg.intro.go .text {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: block;
+}
+svg.intro.go .text-stroke {
+  fill: none;
+  stroke: white 	;
+  stroke-width: 2.20px;
+  stroke-dashoffset: -900;
+  stroke-dasharray: 900;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  -webkit-animation: dash 2.2s ease-in-out forwards;
+          animation: dash 2.2s ease-in-out forwards;
+}
+svg.intro.go .text-stroke:nth-child(2) {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+/* VAHIN's torquoise Colour throw */
+svg.intro.go .text-stroke:nth-child(3) {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+/* Printer's Colour throw */
+svg.intro.go .text-stroke-2 {
+  stroke: #40E0D0	;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+svg.intro.go .text-stroke:nth-child(5) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+svg.intro.go .text-stroke:nth-child(6) {
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+
+@-webkit-keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ARRAY ANIMATION*/
+#onestop{
+  font-weight: 100;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  margin: 0.4em 0;
+}
+#onestop { 
+  font-size: 2.1em; }
+#typinganimation{
+  position: relative;
+  margin: 40rem auto;
+}
+label{
+    margin: 15px auto;
+  letter-spacing: 2px;
+}
